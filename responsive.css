@@ -1,0 +1,11 @@
+
+/* Responsive Tablet (max-width: 1000px)*/
+
+
+/* Responsive Smartphone (max-width: 670px)*/
+@media all and (max-width: 670px) {
+	.pesan p { font-size: 16px;}
+ 	.pesan input { width: 90%; margin-left: 20; }
+ 	.pesan textarea { width: 90%; margin-left: 20;}
+ 	.pesan-submit {width: 100%}
+}

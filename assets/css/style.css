@@ -4,25 +4,26 @@ body{
 
 /* Bagian container pesan*/
 .pesan {
-  padding-top: 50px;
+  padding-top: 20px;
   background-color:#F7B733
 }
 /* Bagian judul container pesan */
-.pesan h3 {color:#fff; text-align: center; padding-bottom: 25px;
+.pesan h2 {color:#fff; text-align: center; padding-bottom: 0px;
 }
 /* Bagian nama formulir */
 .pesan p {color:#fff; margin-left:30px; font-size: 18;
 }
 /* Bagian formulir isian */
-input, textarea {width: 400px; height: 20px;
-margin-top: 10px; margin-bottom: 30px; margin-left:50px;
-padding: 20px; 
+input, textarea {width: 400px; height: 12px;
+margin-top: 0px; margin-bottom: 10px; margin-left:50px;
+padding: 15px; 
 font-size: 18px;
 border: 1px solid #4ABDAC}
-textarea {height: 140px;}
+textarea {height: 100px;}
 
 /* Tombol kirim pesan */
-.pesan-submit { background-color:#4ABDAC; color: #fff; height: 60px;}
+.pesan-submit { background-color:#4ABDAC; color: #fff; 
+	width: 425px; height: 50px; margin-bottom: 30px;}
 /* Tombol kirim pesan saat di klik berubah warna */
 .pesan-submit:active {background-color:#FC4A1A;
   position: relative;
